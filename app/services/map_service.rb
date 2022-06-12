@@ -1,11 +1,11 @@
-class MapService
+class MapService < BaseService
 
   def self.get_location(location)
-    response = conn.get("/geocoding/v1/address?key=#{ENV['map_api']}&location=#{location}")
-    JSON.parse(response.body, symbolize_names: true)
+    response = connection.get("/geocoding/v1/address?key=#{ENV['map_api']}&location=#{location}")
+    get_json(response)
   end
 
-  def self.conn
-    Faraday.new("http://www.mapquestapi.com")
+  def self.connection
+    conn("http://www.mapquestapi.com")
   end
 end

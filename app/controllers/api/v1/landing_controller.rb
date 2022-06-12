@@ -6,4 +6,9 @@ class Api::V1::LandingController < ApplicationController
     render json: ForecastSerializer.new_forecast(weather)
   end
 
+  def background
+    background = PictureFacade.get_photo(params[:location])
+    render json: PhotoSerializer.new_photo(background)
+  end
+
 end

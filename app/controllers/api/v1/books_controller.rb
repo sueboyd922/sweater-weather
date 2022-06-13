@@ -5,11 +5,15 @@ class Api::V1::BooksController < ApplicationController
   def search
     weather = WeatherFacade.get_weather(@location.lat, @location.long)
     books = BookFacade.get_books(params[:location], params[:quantity])
-    render json: BookForecastSerializer.create(books, weather.current_weather)
+    if !books.instance_of?(BookSearch)
+      render json: books, status: 404
+    else
+      render json: BookForecastSerializer.create(books, weather.current_weather)
+    end
   end
 
   def search_present?
-    if !params[:location].present?
+    if !params[:location].present? || params[:location] == ""
       render json: {"error" => "Missing location"}, status: 404
     else
       @location = MapFacade.get_location(params[:location])

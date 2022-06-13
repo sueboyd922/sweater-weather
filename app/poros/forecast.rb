@@ -3,7 +3,7 @@ class Forecast
 
   def initialize(data)
     @current_weather = CurrentWeather.new(data[:current])
-    @daily_weather = set_daily_weather(data[:daily])[0..4]
+    @daily_weather = set_daily_weather(data[:daily][0..4])
     @hourly_weather = set_hourly_weather(data[:hourly][0..7])
   end
 

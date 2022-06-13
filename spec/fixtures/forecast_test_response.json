@@ -1,0 +1,116 @@
+{
+    "data": {
+        "id": null,
+        "type": "forecast",
+        "attributes": {
+            "current_weather": {
+                "datetime": "2022-06-12T20:55:30.000-04:00",
+                "temperature": 77.49,
+                "feels_like": 78.78,
+                "humidity": 82,
+                "uvi": 10000,
+                "sunrise": "2022-06-12T05:57:59.000-04:00",
+                "sunset": "2022-06-12T20:31:03.000-04:00",
+                "conditions": "scattered clouds",
+                "icon": "03n"
+            },
+            "daily_weather": [
+                {
+                    "date": "2022-06-12",
+                    "max_temp": 90.84,
+                    "min_temp": 67.23,
+                    "sunrise": "2022-06-12T05:57:59.000-04:00",
+                    "sunset": "2022-06-12T20:31:03.000-04:00",
+                    "conditions": "light rain",
+                    "icon": "10d"
+                },
+                {
+                    "date": "2022-06-13",
+                    "max_temp": 98.31,
+                    "min_temp": 70.59,
+                    "sunrise": "2022-06-13T05:57:58.000-04:00",
+                    "sunset": "2022-06-13T20:31:28.000-04:00",
+                    "conditions": "broken clouds",
+                    "icon": "04d"
+                },
+                {
+                    "date": "2022-06-14",
+                    "max_temp": 105.35,
+                    "min_temp": 75.13,
+                    "sunrise": "2022-06-14T05:57:59.000-04:00",
+                    "sunset": "2022-06-14T20:31:51.000-04:00",
+                    "conditions": "overcast clouds",
+                    "icon": "04d"
+                },
+                {
+                    "date": "2022-06-15",
+                    "max_temp": 94.05,
+                    "min_temp": 74.21,
+                    "sunrise": "2022-06-15T05:58:01.000-04:00",
+                    "sunset": "2022-06-15T20:32:13.000-04:00",
+                    "conditions": "clear sky",
+                    "icon": "01d"
+                },
+                {
+                    "date": "2022-06-16",
+                    "max_temp": 91.99,
+                    "min_temp": 68.27,
+                    "sunrise": "2022-06-16T05:58:05.000-04:00",
+                    "sunset": "2022-06-16T20:32:33.000-04:00",
+                    "conditions": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "hourly_weather": [
+                {
+                    "time": "20:00:00",
+                    "temperature": 78.21,
+                    "conditions": "scattered clouds",
+                    "icon": "03d"
+                },
+                {
+                    "time": "21:00:00",
+                    "temperature": 77.49,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "22:00:00",
+                    "temperature": 76.3,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "23:00:00",
+                    "temperature": 75,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "00:00:00",
+                    "temperature": 74.01,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "01:00:00",
+                    "temperature": 72.95,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "02:00:00",
+                    "temperature": 71.46,
+                    "conditions": "scattered clouds",
+                    "icon": "03n"
+                },
+                {
+                    "time": "03:00:00",
+                    "temperature": 71.04,
+                    "conditions": "few clouds",
+                    "icon": "02n"
+                }
+            ]
+        }
+    }
+}

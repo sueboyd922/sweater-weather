@@ -7,7 +7,7 @@ RSpec.describe 'Background Api Call' do
     get "/api/v1/backgrounds?location=#{city}"
 
     expect(response).to be_successful
-    require "pry"; binding.pry
+
     background_response = JSON.parse(response.body, symbolize_names: true)
     background = background_response[:data]
 

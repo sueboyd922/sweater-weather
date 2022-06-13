@@ -51,5 +51,29 @@ RSpec.describe "Book/Weather API request" do
       expect(error).to have_key(:error)
       expect(error[:error]).to eq("Quantity cannot be less than 0")
     end
+
+    it 'defaults to a quantity of 10 if no quantity present' do
+      search = "raleigh,nc"
+
+      get "/api/v1/book-search?location=#{search}&quantity="
+
+      expect(response).to be_successful
+      returned_response = JSON.parse(response.body, symbolize_names: true)
+      returned = returned_response[:data]
+
+      expect(returned[:attributes][:books].count).to eq(10)
+    end
+
+    it 'defaults to a quantity of 10 if no quantity given' do
+      search = "raleigh,nc"
+
+      get "/api/v1/book-search?location=#{search}"
+
+      expect(response).to be_successful
+      returned_response = JSON.parse(response.body, symbolize_names: true)
+      returned = returned_response[:data]
+
+      expect(returned[:attributes][:books].count).to eq(10)
+    end
   end
 end

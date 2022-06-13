@@ -18,6 +18,7 @@ RSpec.describe "Book/Weather API request" do
       expect(returned[:type]).to eq("books")
       expect(returned[:attributes]).to have_key(:destination)
       expect(returned[:attributes][:destination]).to eq(search)
+      expect(returned[:attributes]).to have_key(:total_books_found)
       expect(returned[:attributes][:forecast]).to be_a Hash
       expect(returned[:attributes][:forecast]).to have_key(:summary)
       expect(returned[:attributes][:forecast]).to have_key(:temperature)
@@ -49,7 +50,7 @@ RSpec.describe "Book/Weather API request" do
       expect(response.status).to eq(400)
       error = JSON.parse(response.body, symbolize_names: true)
       expect(error).to have_key(:error)
-      expect(error[:error]).to eq("Quantity cannot be less than 0")
+      expect(error[:error]).to eq("Invalid Quantity")
     end
 
     it 'defaults to a quantity of 10 if no quantity present' do
@@ -74,6 +75,17 @@ RSpec.describe "Book/Weather API request" do
       returned = returned_response[:data]
 
       expect(returned[:attributes][:books].count).to eq(10)
+    end
+
+    it 'returns an error if the quantity is not an integer' do
+      search = "raleigh,nc"
+      quantity = "severussnape"
+
+      get "/api/v1/book-search?location=#{search}&quantity=#{quantity}"
+      expect(response.status).to eq(400)
+      error = JSON.parse(response.body, symbolize_names: true)
+      expect(error).to have_key(:error)
+      expect(error[:error]).to eq("Invalid Quantity")
     end
   end
 end

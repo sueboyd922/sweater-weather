@@ -18,7 +18,7 @@ class Api::V1::BooksController < ApplicationController
 
   def quantity_above_0?
     if params[:quantity].present? && params[:quantity].to_i <= 0
-      render json: {"error" => "Quantity cannot be less than 0"}, status: 400
+      render json: {"error" => "Invalid Quantity"}, status: 400
     end
   end
 end

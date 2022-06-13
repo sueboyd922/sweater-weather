@@ -4,7 +4,7 @@ class Api::V1::UsersController < ApplicationController
     user = User.new(user_params)
     user.api_key = SecureRandom.hex(14)
     if user.save
-      require "pry"; binding.pry
+      render json: UserSerializer.send_user(user), status: :created
     end
   end
 

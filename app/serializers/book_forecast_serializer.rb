@@ -11,6 +11,7 @@ class BookForecastSerializer
             summary: weather.conditions,
             temperature: weather.temp
           },
+          total_books_found: book_search.num_results,
           books: book_search.books.map do |book|
             {
               isbn: book.isbn,

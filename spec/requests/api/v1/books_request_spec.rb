@@ -28,5 +28,28 @@ RSpec.describe "Book/Weather API request" do
       expect(returned[:attributes][:books].first).to have_key(:title)
       expect(returned[:attributes][:books].first).to have_key(:publisher)
     end
+
+    it 'returns an error if the location param is missing' do
+      quantity = 5
+
+      get "/api/v1/book-search?quantity=#{quantity}"
+
+      expect(response.status).to eq(404)
+      error = JSON.parse(response.body, symbolize_names: true)
+      expect(error).to have_key(:error)
+      expect(error[:error]).to eq("Missing location")
+    end
+
+    it 'returns an error if the quantity is less than or equal to 0' do
+      quantity = -4
+      search = "raleigh,nc"
+
+      get "/api/v1/book-search?location=#{search}&quantity=#{quantity}"
+
+      expect(response.status).to eq(400)
+      error = JSON.parse(response.body, symbolize_names: true)
+      expect(error).to have_key(:error)
+      expect(error[:error]).to eq("Quantity cannot be less than 0")
+    end
   end
 end

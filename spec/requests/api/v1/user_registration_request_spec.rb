@@ -12,6 +12,6 @@ RSpec.describe 'user registration request' do
       "Accept" => "application/json"
     }
 
-    get "/api/v1/users", headers: headers, params: user_params.to_json
+    post "/api/v1/users", headers: headers, params: JSON.generate(user_params)
   end
 end

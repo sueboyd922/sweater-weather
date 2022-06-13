@@ -3,5 +3,6 @@ class Api::V1::BooksController < ApplicationController
     location = MapFacade.get_location(params[:location])
     weather = WeatherFacade.get_weather(location.lat, location.long)
     books = BookFacade.get_books(params[:location], params[:quantity].to_i)
+    render json: BookForecastSerializer.create(books, weather.current_weather)
   end
 end

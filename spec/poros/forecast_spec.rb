@@ -7,7 +7,7 @@ RSpec.describe Forecast do
       weather = JSON.parse(data, symbolize_names: true)
 
       forecast = Forecast.new(weather)
-      
+
       expect(forecast.current_weather).to be_a CurrentWeather
       expect(forecast.daily_weather).to be_an Array
       expect(forecast.daily_weather.count).to eq(5)

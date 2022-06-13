@@ -1,0 +1,1498 @@
+{
+    "numFound": 649,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+        {
+            "key": "/works/OL20340583W",
+            "type": "work",
+            "seed": [
+                "/books/OL27549785M",
+                "/works/OL20340583W",
+                "/authors/OL3738922A"
+            ],
+            "title": "Raleigh, NC",
+            "title_suggest": "Raleigh, NC",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL27549785M"
+            ],
+            "publish_date": [
+                "2014"
+            ],
+            "publish_year": [
+                2014
+            ],
+            "first_publish_year": 2014,
+            "number_of_pages_median": 126,
+            "isbn": [
+                "9780971007123",
+                "0971007128"
+            ],
+            "last_modified_i": 1571991433,
+            "ebook_count_i": 0,
+            "author_key": [
+                "OL3738922A"
+            ],
+            "author_name": [
+                "Janie W. Bird"
+            ],
+            "id_amazon": [
+                "0971007128"
+            ],
+            "_version_": 1715084040000765953,
+            "author_facet": [
+                "OL3738922A Janie W. Bird"
+            ]
+        },
+        {
+            "key": "/works/OL8414968W",
+            "type": "work",
+            "seed": [
+                "/books/OL7900593M",
+                "/works/OL8414968W",
+                "/authors/OL2806581A"
+            ],
+            "title": "Historic Raleigh  (NC)",
+            "title_suggest": "Historic Raleigh  (NC)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL7900593M"
+            ],
+            "publish_date": [
+                "July 3, 2002"
+            ],
+            "publish_year": [
+                2002
+            ],
+            "first_publish_year": 2002,
+            "number_of_pages_median": 128,
+            "oclc": [
+                "50505521"
+            ],
+            "isbn": [
+                "0738514403",
+                "9780738514406"
+            ],
+            "last_modified_i": 1304130177,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL7900593M",
+            "cover_i": 465882,
+            "first_sentence": [
+                "Once Raleigh was established in 1792, the building of a statehouse was the first priority for the new capital city."
+            ],
+            "publisher": [
+                "Arcadia  Publishing"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2806581A"
+            ],
+            "author_name": [
+                "Jenny and Ken Peters Kulikowski"
+            ],
+            "id_goodreads": [
+                "5872285"
+            ],
+            "id_librarything": [
+                "454066"
+            ],
+            "publisher_facet": [
+                "Arcadia  Publishing"
+            ],
+            "_version_": 1715096827839119361,
+            "author_facet": [
+                "OL2806581A Jenny and Ken Peters Kulikowski"
+            ]
+        },
+        {
+            "key": "/works/OL16869548W",
+            "type": "work",
+            "seed": [
+                "/books/OL14036979M",
+                "/works/OL16869548W",
+                "/subjects/directories"
+            ],
+            "title": "Raleigh, N.C. directory",
+            "title_suggest": "Raleigh, N.C. directory",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL14036979M"
+            ],
+            "publish_date": [
+                "1903"
+            ],
+            "publish_year": [
+                1903
+            ],
+            "first_publish_year": 1903,
+            "number_of_pages_median": 10,
+            "publish_place": [
+                "Richmond, Va"
+            ],
+            "contributor": [
+                "Hill Directory Company."
+            ],
+            "last_modified_i": 1406313376,
+            "ebook_count_i": 1,
+            "ia": [
+                "raleighncdirecto00hill"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "ncdir;fav-jwise80;americana;fav-fuchitusay;ncdhc;unclibraries",
+            "cover_edition_key": "OL14036979M",
+            "cover_i": 5962806,
+            "publisher": [
+                "Hill Directory Co."
+            ],
+            "language": [
+                "eng"
+            ],
+            "subject": [
+                "Directories",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "Hill Directory Co."
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Directories"
+            ],
+            "_version_": 1715079765679931395,
+            "subject_key": [
+                "accessible_book",
+                "directories"
+            ]
+        },
+        {
+            "key": "/works/OL8503446W",
+            "type": "work",
+            "seed": [
+                "/books/OL10909664M",
+                "/works/OL8503446W",
+                "/authors/OL2843451A"
+            ],
+            "title": "Raleigh, NC Wall Map",
+            "title_suggest": "Raleigh, NC Wall Map",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10909664M"
+            ],
+            "publish_date": [
+                "October 1995"
+            ],
+            "publish_year": [
+                1995
+            ],
+            "first_publish_year": 1995,
+            "number_of_pages_median": 1,
+            "isbn": [
+                "076250837X",
+                "9780762508372"
+            ],
+            "last_modified_i": 1295346684,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map"
+            ],
+            "author_key": [
+                "OL2843451A"
+            ],
+            "author_name": [
+                "Universal Map"
+            ],
+            "publisher_facet": [
+                "Universal Map"
+            ],
+            "_version_": 1715096877681082369,
+            "author_facet": [
+                "OL2843451A Universal Map"
+            ]
+        },
+        {
+            "key": "/works/OL8503445W",
+            "type": "work",
+            "seed": [
+                "/books/OL10909518M",
+                "/works/OL8503445W",
+                "/authors/OL2843451A"
+            ],
+            "title": "Raleigh, NC Street Atlas",
+            "title_suggest": "Raleigh, NC Street Atlas",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10909518M"
+            ],
+            "publish_date": [
+                "July 1997"
+            ],
+            "publish_year": [
+                1997
+            ],
+            "first_publish_year": 1997,
+            "number_of_pages_median": 94,
+            "oclc": [
+                "44427358"
+            ],
+            "isbn": [
+                "9780762505913",
+                "0762505915"
+            ],
+            "last_modified_i": 1303967842,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map"
+            ],
+            "author_key": [
+                "OL2843451A"
+            ],
+            "author_name": [
+                "Universal Map"
+            ],
+            "publisher_facet": [
+                "Universal Map"
+            ],
+            "_version_": 1715096877779648513,
+            "author_facet": [
+                "OL2843451A Universal Map"
+            ]
+        },
+        {
+            "key": "/works/OL8503444W",
+            "type": "work",
+            "seed": [
+                "/books/OL10910331M",
+                "/works/OL8503444W",
+                "/authors/OL2843451A"
+            ],
+            "title": "Raleigh Greater Nc856",
+            "title_suggest": "Raleigh Greater Nc856",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10910331M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "number_of_pages_median": 1,
+            "oclc": [
+                "50940444"
+            ],
+            "isbn": [
+                "9780762527069",
+                "0762527064"
+            ],
+            "last_modified_i": 1304109212,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2843451A"
+            ],
+            "author_name": [
+                "Universal Map"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1715096877586710532,
+            "author_facet": [
+                "OL2843451A Universal Map"
+            ]
+        },
+        {
+            "key": "/works/OL6017188W",
+            "type": "work",
+            "seed": [
+                "/books/OL7900594M",
+                "/works/OL6017188W",
+                "/subjects/sports_facilities",
+                "/subjects/basketball_history",
+                "/authors/OL1509988A"
+            ],
+            "title": "Raleigh's Reynolds Coliseum (NC)",
+            "title_suggest": "Raleigh's Reynolds Coliseum (NC)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL7900594M"
+            ],
+            "publish_date": [
+                "August 13, 2002"
+            ],
+            "publish_year": [
+                2002
+            ],
+            "first_publish_year": 2002,
+            "number_of_pages_median": 128,
+            "isbn": [
+                "9780738514413",
+                "0738514411"
+            ],
+            "last_modified_i": 1598570475,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL7900594M",
+            "cover_i": 1370964,
+            "first_sentence": [
+                "We have become a bit jaded."
+            ],
+            "publisher": [
+                "Arcadia Publishing"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL1509988A"
+            ],
+            "author_name": [
+                "Craig Chappelow"
+            ],
+            "subject": [
+                "Sports facilities",
+                "Basketball, history"
+            ],
+            "id_goodreads": [
+                "3052619"
+            ],
+            "id_librarything": [
+                "3307515"
+            ],
+            "publisher_facet": [
+                "Arcadia Publishing"
+            ],
+            "subject_facet": [
+                "Basketball, history",
+                "Sports facilities"
+            ],
+            "_version_": 1715094164345978881,
+            "author_facet": [
+                "OL1509988A Craig Chappelow"
+            ],
+            "subject_key": [
+                "basketball_history",
+                "sports_facilities"
+            ]
+        },
+        {
+            "key": "/works/OL10443349M",
+            "type": "work",
+            "seed": [
+                "/books/OL10443349M",
+                "/works/OL10443349M",
+                "/subjects/united_states_-_south_-_south_atlantic_(general)",
+                "/subjects/travel",
+                "/subjects/maps"
+            ],
+            "title": "Raleigh, Nc/Street Map",
+            "title_suggest": "Raleigh, Nc/Street Map",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10443349M"
+            ],
+            "publish_date": [
+                "May 1994"
+            ],
+            "publish_year": [
+                1994
+            ],
+            "first_publish_year": 1994,
+            "oclc": [
+                "52175956"
+            ],
+            "isbn": [
+                "0528943405",
+                "9780528943409"
+            ],
+            "last_modified_i": 1635645515,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Rand Mcnally"
+            ],
+            "language": [
+                "eng"
+            ],
+            "subject": [
+                "United States - South - South Atlantic (General)",
+                "Travel",
+                "Maps"
+            ],
+            "publisher_facet": [
+                "Rand Mcnally"
+            ],
+            "subject_facet": [
+                "Maps",
+                "Travel",
+                "United States - South - South Atlantic (General)"
+            ],
+            "_version_": 1715098631949778946,
+            "subject_key": [
+                "maps",
+                "travel",
+                "united_states_-_south_-_south_atlantic_(general)"
+            ]
+        },
+        {
+            "key": "/works/OL11161936M",
+            "type": "work",
+            "seed": [
+                "/books/OL11161936M",
+                "/works/OL11161936M",
+                "/subjects/maps_&_road_atlases",
+                "/subjects/travel",
+                "/subjects/maps"
+            ],
+            "title": "Raleigh & Cary, Nc Map",
+            "title_suggest": "Raleigh & Cary, Nc Map",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL11161936M"
+            ],
+            "publish_date": [
+                "August 2002"
+            ],
+            "publish_year": [
+                2002
+            ],
+            "first_publish_year": 2002,
+            "isbn": [
+                "0875301142",
+                "9780875301143"
+            ],
+            "last_modified_i": 1635645620,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Adc the Map People"
+            ],
+            "language": [
+                "eng"
+            ],
+            "subject": [
+                "Maps & Road Atlases",
+                "Travel",
+                "Maps"
+            ],
+            "publisher_facet": [
+                "Adc the Map People"
+            ],
+            "subject_facet": [
+                "Maps",
+                "Maps & Road Atlases",
+                "Travel"
+            ],
+            "_version_": 1715098742900654081,
+            "subject_key": [
+                "maps",
+                "maps__road_atlases",
+                "travel"
+            ]
+        },
+        {
+            "key": "/works/OL18187542W",
+            "type": "work",
+            "seed": [
+                "/books/OL26657497M",
+                "/works/OL18187542W",
+                "/subjects/vaudeville",
+                "/subjects/theaters",
+                "/subjects/state_theater_(raleigh_n.c.)",
+                "/subjects/pictorial_works",
+                "/subjects/place:raleigh_(n.c.)",
+                "/subjects/place:raleigh",
+                "/subjects/place:north_carolina",
+                "/authors/OL7447572A"
+            ],
+            "title": "State Theater, Raleigh, N.C.",
+            "title_suggest": "State Theater, Raleigh, N.C.",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL26657497M"
+            ],
+            "publish_date": [
+                "1923"
+            ],
+            "publish_year": [
+                1923
+            ],
+            "first_publish_year": 1923,
+            "number_of_pages_median": 32,
+            "publish_place": [
+                "[Raleigh, N.C"
+            ],
+            "oclc": [
+                "318596693"
+            ],
+            "last_modified_i": 1547875412,
+            "ebook_count_i": 1,
+            "ia": [
+                "statetheaterrale00stat"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "unclibraries;americana;ncgen;fav-lukebolle",
+            "cover_edition_key": "OL26657497M",
+            "cover_i": 8348002,
+            "publisher": [
+                "State Theater?"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL7447572A"
+            ],
+            "author_name": [
+                "State Theater (Raleigh, N.C.)"
+            ],
+            "place": [
+                "Raleigh (N.C.)",
+                "Raleigh",
+                "North Carolina"
+            ],
+            "subject": [
+                "Vaudeville",
+                "Theaters",
+                "State Theater (Raleigh, N.C.)",
+                "Pictorial works",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "State Theater?"
+            ],
+            "place_key": [
+                "north_carolina",
+                "raleigh",
+                "raleigh_(n.c.)"
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Pictorial works",
+                "State Theater (Raleigh, N.C.)",
+                "Theaters",
+                "Vaudeville"
+            ],
+            "_version_": 1715081384456880130,
+            "place_facet": [
+                "North Carolina",
+                "Raleigh",
+                "Raleigh (N.C.)"
+            ],
+            "author_facet": [
+                "OL7447572A State Theater (Raleigh, N.C.)"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "pictorial_works",
+                "state_theater_(raleigh_n.c.)",
+                "theaters",
+                "vaudeville"
+            ]
+        },
+        {
+            "key": "/works/OL10911113M",
+            "type": "work",
+            "seed": [
+                "/books/OL10911113M",
+                "/works/OL10911113M"
+            ],
+            "title": "Raleigh, NC (City Wall Maps)",
+            "title_suggest": "Raleigh, NC (City Wall Maps)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10911113M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "isbn": [
+                "0762546433",
+                "9780762546435"
+            ],
+            "last_modified_i": 1635645591,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1715098712723685376
+        },
+        {
+            "key": "/works/OL27736963W",
+            "type": "work",
+            "seed": [
+                "/books/OL37865195M",
+                "/works/OL27736963W",
+                "/subjects/catalogs",
+                "/subjects/sepulchral_monuments",
+                "/subjects/coopers_of_raleigh_(firm)",
+                "/authors/OL10354780A"
+            ],
+            "title": "Coopers of Raleigh, N.C.",
+            "title_suggest": "Coopers of Raleigh, N.C.",
+            "edition_count": 1,
+            "edition_key": [
+                "OL37865195M"
+            ],
+            "publish_date": [
+                "1920"
+            ],
+            "publish_year": [
+                1920
+            ],
+            "first_publish_year": 1920,
+            "number_of_pages_median": 39,
+            "publish_place": [
+                "Raleigh, N.C"
+            ],
+            "oclc": [
+                "1280153176"
+            ],
+            "last_modified_i": 1652251887,
+            "ia": [
+                "coopersofraleigh00coop"
+            ],
+            "ebook_count_i": 1,
+            "has_fulltext": true,
+            "public_scan_b": true,
+            "ia_collection_s": "ColumbiaUniversityLibraries;americana",
+            "lending_edition_s": "OL37865195M",
+            "lending_identifier_s": "coopersofraleigh00coop",
+            "cover_edition_key": "OL37865195M",
+            "cover_i": 12738093,
+            "publisher": [
+                "Coopers of Raleigh"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL10354780A"
+            ],
+            "author_name": [
+                "Coopers of Raleigh (Firm)"
+            ],
+            "subject": [
+                "Catalogs",
+                "Sepulchral monuments",
+                "Coopers of Raleigh (Firm)",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "Coopers of Raleigh"
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Catalogs",
+                "Coopers of Raleigh (Firm)",
+                "Sepulchral monuments"
+            ],
+            "_version_": 1733035489569538049,
+            "author_facet": [
+                "OL10354780A Coopers of Raleigh (Firm)"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "catalogs",
+                "coopers_of_raleigh_(firm)",
+                "sepulchral_monuments"
+            ]
+        },
+        {
+            "key": "/works/OL16844132W",
+            "type": "work",
+            "seed": [
+                "/books/OL14021388M",
+                "/works/OL16844132W",
+                "/subjects/directories"
+            ],
+            "title": "Maloney's ... Raleigh, N.C. city directory",
+            "title_suggest": "Maloney's ... Raleigh, N.C. city directory",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL14021388M"
+            ],
+            "publish_date": [
+                "189u"
+            ],
+            "lccn": [
+                "99003075"
+            ],
+            "publish_place": [
+                "Atlanta, Ga"
+            ],
+            "lcc": [
+                "F--0264.00000000.R1 A18"
+            ],
+            "last_modified_i": 1406193145,
+            "ebook_count_i": 1,
+            "ia": [
+                "maloneysraleighn00atla"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "ncdir;americana;ncdhc;unclibraries",
+            "cover_edition_key": "OL14021388M",
+            "cover_i": 5959232,
+            "publisher": [
+                "Maloney Directory Co."
+            ],
+            "language": [
+                "eng"
+            ],
+            "subject": [
+                "Directories",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "Maloney Directory Co."
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Directories"
+            ],
+            "_version_": 1715079660120834049,
+            "lcc_sort": "F--0264.00000000.R1 A18",
+            "subject_key": [
+                "accessible_book",
+                "directories"
+            ]
+        },
+        {
+            "key": "/works/OL17044390W",
+            "type": "work",
+            "seed": [
+                "/books/OL25613705M",
+                "/works/OL17044390W",
+                "/subjects/baptist_state_convention_of_north_carolina",
+                "/subjects/first_baptist_church_(raleigh_n.c.)",
+                "/subjects/history",
+                "/subjects/place:raleigh",
+                "/authors/OL7225111A"
+            ],
+            "title": "First Baptist Church, Raleigh, N.C.",
+            "title_suggest": "First Baptist Church, Raleigh, N.C.",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL25613705M"
+            ],
+            "publish_date": [
+                "1952"
+            ],
+            "publish_year": [
+                1952
+            ],
+            "first_publish_year": 1952,
+            "publish_place": [
+                "Raleigh? [N.C.]"
+            ],
+            "oclc": [
+                "9535677"
+            ],
+            "last_modified_i": 1590112161,
+            "ebook_count_i": 1,
+            "ia": [
+                "firstbaptistchur00brig"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "ncreligion;ncchurchreligiousbodyhistories;americana",
+            "cover_edition_key": "OL25613705M",
+            "cover_i": 9948971,
+            "publisher": [
+                "The Church?"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL7225111A"
+            ],
+            "author_name": [
+                "Willis G. Briggs"
+            ],
+            "place": [
+                "Raleigh"
+            ],
+            "subject": [
+                "Baptist State Convention of North Carolina",
+                "First Baptist Church (Raleigh, N.C.)",
+                "History",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "The Church?"
+            ],
+            "place_key": [
+                "raleigh"
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Baptist State Convention of North Carolina",
+                "First Baptist Church (Raleigh, N.C.)",
+                "History"
+            ],
+            "_version_": 1715079878939770882,
+            "place_facet": [
+                "Raleigh"
+            ],
+            "author_facet": [
+                "OL7225111A Willis G. Briggs"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "baptist_state_convention_of_north_carolina",
+                "first_baptist_church_(raleigh_n.c.)",
+                "history"
+            ]
+        },
+        {
+            "key": "/works/OL10910159M",
+            "type": "work",
+            "seed": [
+                "/books/OL10910159M",
+                "/works/OL10910159M",
+                "/subjects/maps_&_road_atlases",
+                "/subjects/united_states_-_south_atlantic_-_n._carolina",
+                "/subjects/travel_-_united_states"
+            ],
+            "title": "Raleigh, NC (Deluxe City Flip Map)",
+            "title_suggest": "Raleigh, NC (Deluxe City Flip Map)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10910159M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "isbn": [
+                "0762521392",
+                "9780762521395"
+            ],
+            "last_modified_i": 1635645591,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "subject": [
+                "Maps & Road Atlases",
+                "United States - South Atlantic - N. Carolina",
+                "Travel - United States"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "subject_facet": [
+                "Maps & Road Atlases",
+                "Travel - United States",
+                "United States - South Atlantic - N. Carolina"
+            ],
+            "_version_": 1715098712715296771,
+            "subject_key": [
+                "maps__road_atlases",
+                "travel_-_united_states",
+                "united_states_-_south_atlantic_-_n._carolina"
+            ]
+        },
+        {
+            "key": "/works/OL10910773M",
+            "type": "work",
+            "seed": [
+                "/books/OL10910773M",
+                "/works/OL10910773M"
+            ],
+            "title": "Raleigh, NC Vicinity (City Wall Maps)",
+            "title_suggest": "Raleigh, NC Vicinity (City Wall Maps)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10910773M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "isbn": [
+                "9780762538522",
+                "076253852X"
+            ],
+            "last_modified_i": 1635645591,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1715098712638750725
+        },
+        {
+            "key": "/works/OL11438175W",
+            "type": "work",
+            "seed": [
+                "/books/OL15181423M",
+                "/works/OL11438175W",
+                "/subjects/confederate_states_of_america",
+                "/subjects/confederate_states_of_america._army",
+                "/subjects/general_tract_agency_(raleigh_n.c.)",
+                "/subjects/publishing",
+                "/subjects/religious_life",
+                "/subjects/religious_literature",
+                "/subjects/place:confederate_states_of_america",
+                "/authors/OL4809456A"
+            ],
+            "title": "The General Tract Agency, Raleigh, N.C",
+            "title_suggest": "The General Tract Agency, Raleigh, N.C",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL15181423M"
+            ],
+            "publish_date": [
+                "1862"
+            ],
+            "publish_year": [
+                1862
+            ],
+            "first_publish_year": 1862,
+            "publish_place": [
+                "[Raleigh, N.C"
+            ],
+            "contributor": [
+                "General Tract Agency (Raleigh, N.C.)"
+            ],
+            "last_modified_i": 1343572936,
+            "ebook_count_i": 0,
+            "publisher": [
+                "The Agency"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL4809456A"
+            ],
+            "author_name": [
+                "W. J. W Crowder"
+            ],
+            "place": [
+                "Confederate States of America"
+            ],
+            "subject": [
+                "Confederate States of America",
+                "Confederate States of America. Army",
+                "General Tract Agency (Raleigh, N.C.)",
+                "Publishing",
+                "Religious life",
+                "Religious literature"
+            ],
+            "publisher_facet": [
+                "The Agency"
+            ],
+            "place_key": [
+                "confederate_states_of_america"
+            ],
+            "subject_facet": [
+                "Confederate States of America",
+                "Confederate States of America. Army",
+                "General Tract Agency (Raleigh, N.C.)",
+                "Publishing",
+                "Religious life",
+                "Religious literature"
+            ],
+            "_version_": 1715074936050024449,
+            "place_facet": [
+                "Confederate States of America"
+            ],
+            "author_facet": [
+                "OL4809456A W. J. W Crowder"
+            ],
+            "subject_key": [
+                "confederate_states_of_america",
+                "confederate_states_of_america._army",
+                "general_tract_agency_(raleigh_n.c.)",
+                "publishing",
+                "religious_life",
+                "religious_literature"
+            ]
+        },
+        {
+            "key": "/works/OL8540427W",
+            "type": "work",
+            "seed": [
+                "/books/OL11162065M",
+                "/works/OL8540427W",
+                "/authors/OL2859843A"
+            ],
+            "title": "Raleigh, Nc 50-Mile Radius Laminmated Map",
+            "title_suggest": "Raleigh, Nc 50-Mile Radius Laminmated Map",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL11162065M"
+            ],
+            "publish_date": [
+                "August 2002"
+            ],
+            "publish_year": [
+                2002
+            ],
+            "first_publish_year": 2002,
+            "isbn": [
+                "9780875303284",
+                "0875303285"
+            ],
+            "last_modified_i": 1260838800,
+            "ebook_count_i": 0,
+            "publisher": [
+                "ADC The Map People"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2859843A"
+            ],
+            "author_name": [
+                "ADC the Map People"
+            ],
+            "publisher_facet": [
+                "ADC The Map People"
+            ],
+            "_version_": 1715096926561501186,
+            "author_facet": [
+                "OL2859843A ADC the Map People"
+            ]
+        },
+        {
+            "key": "/works/OL10909519M",
+            "type": "work",
+            "seed": [
+                "/books/OL10909519M",
+                "/works/OL10909519M",
+                "/subjects/atlases_-_general",
+                "/subjects/travel",
+                "/subjects/maps",
+                "/subjects/atlases",
+                "/subjects/chapel_hill",
+                "/subjects/durham",
+                "/subjects/raleigh",
+                "/subjects/north_carolina",
+                "/subjects/reference",
+                "/authors/OL2843451A",
+                "/authors/OL2843451A"
+            ],
+            "title": "Raleigh / Durham / Chapel Hill, NC Street Atlas",
+            "title_suggest": "Raleigh / Durham / Chapel Hill, NC Street Atlas",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10909519M"
+            ],
+            "publish_date": [
+                "August 1997"
+            ],
+            "publish_year": [
+                1997
+            ],
+            "first_publish_year": 1997,
+            "number_of_pages_median": 1,
+            "oclc": [
+                "41966903"
+            ],
+            "isbn": [
+                "0762505923",
+                "9780762505920"
+            ],
+            "last_modified_i": 1635645592,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL10909519M",
+            "cover_i": 2607233,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2843451A",
+                "OL2843451A"
+            ],
+            "author_name": [
+                "Universal Map",
+                "Universal Map"
+            ],
+            "subject": [
+                "Atlases - General",
+                "Travel",
+                "Maps",
+                "Atlases",
+                "Chapel Hill",
+                "Durham",
+                "Raleigh",
+                "North Carolina",
+                "Reference"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "subject_facet": [
+                "Atlases",
+                "Atlases - General",
+                "Chapel Hill",
+                "Durham",
+                "Maps",
+                "North Carolina",
+                "Raleigh",
+                "Reference",
+                "Travel"
+            ],
+            "_version_": 1715098712885166081,
+            "author_facet": [
+                "OL2843451A Universal Map"
+            ],
+            "subject_key": [
+                "atlases",
+                "atlases_-_general",
+                "chapel_hill",
+                "durham",
+                "maps",
+                "north_carolina",
+                "raleigh",
+                "reference",
+                "travel"
+            ]
+        },
+        {
+            "key": "/works/OL13696900W",
+            "type": "work",
+            "seed": [
+                "/books/OL22864284M",
+                "/works/OL13696900W",
+                "/subjects/description_and_travel",
+                "/authors/OL6550849A"
+            ],
+            "title": "The city of Raleigh, N.C. and vicinity",
+            "title_suggest": "The city of Raleigh, N.C. and vicinity",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL22864284M"
+            ],
+            "publish_date": [
+                "1894"
+            ],
+            "publish_year": [
+                1894
+            ],
+            "first_publish_year": 1894,
+            "number_of_pages_median": 132,
+            "lccn": [
+                "09016252"
+            ],
+            "publish_place": [
+                "[Raleigh, N.C"
+            ],
+            "contributor": [
+                "Ashley, William E., [from old catalog] ed.",
+                "Ayer, H. W., [from old catalog] ed."
+            ],
+            "lcc": [
+                "F--0264.00000000.R1 R1"
+            ],
+            "last_modified_i": 1597139048,
+            "ebook_count_i": 1,
+            "ia": [
+                "cityofraleighncv00rale"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "americana;library_of_congress",
+            "cover_edition_key": "OL22864284M",
+            "cover_i": 7183016,
+            "publisher": [
+                "Edwards & Broughton"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL6550849A"
+            ],
+            "author_name": [
+                "Raleigh, N.C. Chamber of commerce and industry"
+            ],
+            "subject": [
+                "Description and travel",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "Edwards & Broughton"
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Description and travel"
+            ],
+            "_version_": 1715077311914573824,
+            "lcc_sort": "F--0264.00000000.R1 R1",
+            "author_facet": [
+                "OL6550849A Raleigh, N.C. Chamber of commerce and industry"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "description_and_travel"
+            ]
+        },
+        {
+            "key": "/works/OL9260655W",
+            "type": "work",
+            "seed": [
+                "/books/OL9722348M",
+                "/works/OL9260655W",
+                "/subjects/fire_extinction",
+                "/subjects/pictorial_works",
+                "/subjects/history",
+                "/subjects/fire_fighters",
+                "/subjects/fires",
+                "/authors/OL3315818A"
+            ],
+            "title": "Raleigh and Wake County Firefighting, Vol. 2   (NC)",
+            "title_suggest": "Raleigh and Wake County Firefighting, Vol. 2   (NC)",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL9722348M"
+            ],
+            "publish_date": [
+                "April 21, 2004"
+            ],
+            "publish_year": [
+                2004
+            ],
+            "first_publish_year": 2004,
+            "number_of_pages_median": 128,
+            "lccn": [
+                "2003100673"
+            ],
+            "lcc": [
+                "TH-9505.00000000.R35 L44 2004"
+            ],
+            "isbn": [
+                "0738516201",
+                "9780738516202"
+            ],
+            "last_modified_i": 1607400189,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL9722348M",
+            "cover_i": 1371099,
+            "first_sentence": [
+                "DOWNTOWN RALEIGH, AUGUST 24, 1941. Spectators stand beside fire hose splayed along the 100 block of Fayetteville Street."
+            ],
+            "publisher": [
+                "Arcadia  Publishing"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL3315818A"
+            ],
+            "author_name": [
+                "Michael John Legeros"
+            ],
+            "subject": [
+                "Fire extinction",
+                "Pictorial works",
+                "History",
+                "Fire fighters",
+                "Fires"
+            ],
+            "id_goodreads": [
+                "741042"
+            ],
+            "publisher_facet": [
+                "Arcadia  Publishing"
+            ],
+            "subject_facet": [
+                "Fire extinction",
+                "Fire fighters",
+                "Fires",
+                "History",
+                "Pictorial works"
+            ],
+            "_version_": 1715097735588216832,
+            "lcc_sort": "TH-9505.00000000.R35 L44 2004",
+            "author_facet": [
+                "OL3315818A Michael John Legeros"
+            ],
+            "subject_key": [
+                "fire_extinction",
+                "fire_fighters",
+                "fires",
+                "history",
+                "pictorial_works"
+            ]
+        },
+        {
+            "key": "/works/OL24840479W",
+            "type": "work",
+            "seed": [
+                "/books/OL33014716M",
+                "/works/OL24840479W",
+                "/authors/OL7197495A"
+            ],
+            "title": "Raleigh, N.C. Directory [serial] Volume 1918/1919",
+            "title_suggest": "Raleigh, N.C. Directory [serial] Volume 1918/1919",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL33014716M"
+            ],
+            "publish_date": [
+                "Nov 02, 2015"
+            ],
+            "publish_year": [
+                2015
+            ],
+            "first_publish_year": 2015,
+            "number_of_pages_median": 590,
+            "isbn": [
+                "134583523X",
+                "9781345835236"
+            ],
+            "last_modified_i": 1629192793,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL33014716M",
+            "cover_i": 11672800,
+            "publisher": [
+                "Arkose Press"
+            ],
+            "author_key": [
+                "OL7197495A"
+            ],
+            "author_name": [
+                "Hill Directory Company"
+            ],
+            "publisher_facet": [
+                "Arkose Press"
+            ],
+            "_version_": 1715088664305860611,
+            "author_facet": [
+                "OL7197495A Hill Directory Company"
+            ]
+        },
+        {
+            "key": "/works/OL24945267W",
+            "type": "work",
+            "seed": [
+                "/books/OL33159045M",
+                "/works/OL24945267W",
+                "/subjects/edenton_street_united_methodist_church_(raleigh_n.c.)",
+                "/authors/OL9402129A"
+            ],
+            "title": "Edenton Street Methodist Sunday School, Raleigh, N.C.",
+            "title_suggest": "Edenton Street Methodist Sunday School, Raleigh, N.C.",
+            "has_fulltext": true,
+            "edition_count": 1,
+            "edition_key": [
+                "OL33159045M"
+            ],
+            "publish_date": [
+                "1912"
+            ],
+            "publish_year": [
+                1912
+            ],
+            "first_publish_year": 1912,
+            "number_of_pages_median": 102,
+            "publish_place": [
+                "Raleigh, N.C"
+            ],
+            "oclc": [
+                "9600051",
+                "001515632"
+            ],
+            "last_modified_i": 1630353997,
+            "ebook_count_i": 1,
+            "ia": [
+                "edentonstreetmet00iden"
+            ],
+            "public_scan_b": true,
+            "ia_collection_s": "americana;ncreligion;ncchurchreligiousbodyhistories",
+            "cover_edition_key": "OL33159045M",
+            "cover_i": 11864295,
+            "publisher": [
+                "Edwards & Broughton Print. Co."
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL9402129A"
+            ],
+            "author_name": [
+                "Susan Franks Iden"
+            ],
+            "subject": [
+                "Edenton Street United Methodist Church (Raleigh, N.C.)",
+                "Accessible book"
+            ],
+            "publisher_facet": [
+                "Edwards & Broughton Print. Co."
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Edenton Street United Methodist Church (Raleigh, N.C.)"
+            ],
+            "_version_": 1715088716081397763,
+            "author_facet": [
+                "OL9402129A Susan Franks Iden"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "edenton_street_united_methodist_church_(raleigh_n.c.)"
+            ]
+        }
+      ]
+  }

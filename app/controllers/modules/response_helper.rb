@@ -1,15 +1,4 @@
-# require './controllers/modules/response_helper.rb'
-
-class ApplicationController < ActionController::API
-  # include ResponseHelper
-
-  def set_user
-    if User.exists?(email: params[:email])
-      @user = User.find_by(email: params[:email])
-    else
-      login_error
-    end
-  end
+module ResponseHelper 
 
   def success(user, code)
     render json: UserSerializer.send_user(user), status: code
@@ -22,4 +11,5 @@ class ApplicationController < ActionController::API
   def creation_error(user, code)
     render json: {error: user.errors.full_messages.to_sentence}, status: 400
   end
+
 end

@@ -4,6 +4,10 @@ module ResponseHelper
     render json: UserSerializer.send_user(user), status: code
   end
 
+  def roadtrip_success(travel, weather)
+    render json: RoadTripSerializer.new_trip(travel, weather)
+  end
+
   def login_error
     render json: {error: "Email or password is incorrect"}, status: 400
   end

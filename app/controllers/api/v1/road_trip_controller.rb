@@ -5,7 +5,7 @@ class Api::V1::RoadTripController < ApplicationController
     travel_time = MapFacade.get_travel_time(params[:destination], params[:origin])
     location = MapFacade.get_location(params[:destination])
     weather = WeatherFacade.get_full_weather(location.lat, location.long)
-    render json: RoadTripSerializer.new_trip(travel_time, weather)
+    roadtrip_success(travel_time, weather)
   end
 
 

@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   post "/api/v1/users", to: "api/v1/users#create"
 
   post "/api/v1/sessions", to: "api/v1/users#show"
+
+  post "/api/v1/road_trip", to: "api/v1/road_trip#show"
 end

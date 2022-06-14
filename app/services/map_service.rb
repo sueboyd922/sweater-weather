@@ -5,6 +5,11 @@ class MapService < BaseService
     get_json(response)
   end
 
+  def self.get_travel_time(to, from)
+    response = connection.get("/directions/v2/route?key=#{ENV['map_api']}&from=#{from}&to=#{to}")
+    get_json(response)
+  end
+
   def self.connection
     conn("http://www.mapquestapi.com")
   end

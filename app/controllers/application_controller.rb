@@ -16,4 +16,8 @@ class ApplicationController < ActionController::API
       api_key_error("Missing API key")
     end
   end
+
+  # def set_location
+  #   @location = MapFacade.get_location(params[:destination])
+  # end
 end

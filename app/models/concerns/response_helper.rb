@@ -8,6 +8,10 @@ module ResponseHelper
     render json: RoadTripSerializer.new_trip(travel, weather)
   end
 
+  def roadtrip_error(message)
+    render json: {error: message}, status: 400
+  end
+
   def login_error
     render json: {error: "Email or password is incorrect"}, status: 400
   end

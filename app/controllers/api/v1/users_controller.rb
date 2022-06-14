@@ -7,6 +7,13 @@ class Api::V1::UsersController < ApplicationController
     end
   end
 
+  def show
+    user = User.find_by(email: params[:email])
+    if user.authenticate(params[:password])
+      render json: UserSerializer.send_user(user)
+    end
+  end
+
   private
     def user_params
       params.permit(:email, :password, :password_confirmation)

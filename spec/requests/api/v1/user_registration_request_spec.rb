@@ -27,4 +27,44 @@ RSpec.describe 'user registration request' do
     expect(user_response[:attributes]).not_to have_key(:password)
     expect(user_response[:attributes]).not_to have_key(:password_confirmation)
   end
+
+  it 'will not create a user if passwords are not a match' do
+    user_params = {
+      email: "email@example.com",
+      password: "secret",
+      password_confirmation: "secretsss"
+    }
+    headers = {
+      "Content-Type" => "application/json",
+      "Accept" => "application/json"
+    }
+
+    post "/api/v1/users", headers: headers, params: JSON.generate(user_params)
+
+    user_response_json = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response.status).to eq(400)
+    expect(user_response_json[:error]).to eq("Password confirmation doesn't match Password")
+  end
+
+  it 'will not let you register two users with the same email' do
+    User.create!(email: "email@example.com", password: "password", password_confirmation: "password" )
+
+    user_params = {
+      email: "email@example.com",
+      password: "secret",
+      password_confirmation: "secret"
+    }
+    headers = {
+      "Content-Type" => "application/json",
+      "Accept" => "application/json"
+    }
+
+    post "/api/v1/users", headers: headers, params: JSON.generate(user_params)
+
+    user_response_json = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response.status).to eq(400)
+    expect(user_response_json[:error]).to eq("Email has already been taken")
+  end
 end

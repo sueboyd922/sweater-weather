@@ -5,6 +5,8 @@ class Api::V1::UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       success(user, 201)
+    else
+      creation_error(user, 400)
     end
   end
 

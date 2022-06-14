@@ -9,7 +9,7 @@ RSpec.describe "weather api" do
 
       expect(response).to be_successful
       weather_response = JSON.parse(response.body, symbolize_names: true)
-      # require "pry"; binding.pry
+
       expect(weather_response[:data]).to have_key(:id)
       expect(weather_response[:data][:id]).to eq(nil)
       expect(weather_response[:data]).to have_key(:type)
@@ -23,8 +23,8 @@ RSpec.describe "weather api" do
       expect(all_weather[:attributes]).to have_key(:current_weather)
       expect(weather[:current_weather]).to be_a Hash
       expect(weather[:current_weather][:datetime]).to be_a String
-      expect(weather[:current_weather][:temperature]).to be_a Float
-      expect(weather[:current_weather][:feels_like]).to be_a Float
+      expect(weather[:current_weather][:temperature]).to be_a(Float).or be_an(Integer)
+      expect(weather[:current_weather][:feels_like]).to be_a(Float).or be_an(Integer)
       expect(weather[:current_weather][:humidity]).to be_an Integer
       expect(weather[:current_weather][:uvi]).to be_an Integer
       expect(weather[:current_weather][:sunrise]).to be_a String
@@ -36,8 +36,8 @@ RSpec.describe "weather api" do
       expect(weather[:daily_weather]).to be_an Array
       expect(weather[:daily_weather].count).to eq(5)
       expect(weather[:daily_weather][0][:date]).to be_a String
-      expect(weather[:daily_weather][0][:max_temp]).to be_a Float
-      expect(weather[:daily_weather][0][:min_temp]).to be_a Float
+      expect(weather[:daily_weather][0][:max_temp]).to be_a(Float).or be_an(Integer)
+      expect(weather[:daily_weather][0][:min_temp]).to be_a(Float).or be_an(Integer)
       expect(weather[:daily_weather][0][:sunrise]).to be_a String
       expect(weather[:daily_weather][0][:sunset]).to be_a String
       expect(weather[:daily_weather][0][:conditions]).to be_a String
@@ -47,7 +47,7 @@ RSpec.describe "weather api" do
       expect(weather[:hourly_weather]).to be_an Array
       expect(weather[:hourly_weather].count).to eq(8)
       expect(weather[:hourly_weather][0][:time]).to be_a String
-      expect(weather[:hourly_weather][0][:temperature]).to be_an Float
+      expect(weather[:hourly_weather][0][:temperature]).to be_a(Float).or be_an(Integer)
       expect(weather[:hourly_weather][0][:conditions]).to be_a String
       expect(weather[:hourly_weather][0][:icon]).to be_a String
     end

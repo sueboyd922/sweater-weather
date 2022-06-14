@@ -1,25 +1,27 @@
-# require './controllers/modules/response_helper.rb'
-
 class ApplicationController < ActionController::API
-  # include ResponseHelper
+  include ResponseHelper
 
   def set_user
     if User.exists?(email: params[:email])
       @user = User.find_by(email: params[:email])
     else
-      login_error
+      error("Email or password is incorrect", 401)
     end
   end
 
-  def success(user, code)
-    render json: UserSerializer.send_user(user), status: code
+  def valid_api_key?
+    if params[:api_key].present?
+       if !User.exists?(api_key: params[:api_key])
+         error("Invalid API key", 401)
+       end
+    else
+      error("Missing API key", 401)
+    end
   end
 
-  def login_error
-    render json: {error: "Email or password is incorrect"}, status: 400
-  end
-
-  def creation_error(user, code)
-    render json: {error: user.errors.full_messages.to_sentence}, status: 400
+  def road_trip_params_present?
+    unless params[:destination].present? && params[:origin].present?
+      error("Missing destination or origin locations", 400)
+    end
   end
 end

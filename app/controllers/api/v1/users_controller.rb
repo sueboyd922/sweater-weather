@@ -4,17 +4,17 @@ class Api::V1::UsersController < ApplicationController
   def create
     user = User.new(user_params)
     if user.save
-      success(user, 201)
+      user_success(user, 201)
     else
-      creation_error(user, 400)
+      error(user.errors.full_messages.to_sentence, 400)
     end
   end
 
   def show
     if @user.authenticate(params[:password])
-      success(@user, 200)
+      user_success(@user, 200)
     else
-      login_error
+      error("Email or password is incorrect", 401)
     end
   end
 

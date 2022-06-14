@@ -3,4 +3,13 @@ class MapFacade
     json = MapService.get_location(location)
     Location.new(json)
   end
+
+  def self.get_travel_time(to, from)
+    json = MapService.get_travel_time(to, from)
+    # if !json[:route][:legs].present?
+    #   json[:info][:messages].join
+    # else
+      Travel.new(json, to, from)
+    # end
+  end
 end

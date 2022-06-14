@@ -6,7 +6,7 @@ RSpec.describe Forecast do
       data = File.read("./spec/fixtures/open_weather_response.json")
       weather = JSON.parse(data, symbolize_names: true)
 
-      forecast = Forecast.new(weather)
+      forecast = Forecast.new(weather, "partial")
 
       expect(forecast.current_weather).to be_a CurrentWeather
       expect(forecast.daily_weather).to be_an Array

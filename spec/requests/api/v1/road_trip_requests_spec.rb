@@ -16,7 +16,7 @@ RSpec.describe "directions/weather api request" do
     }
 
     post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
-
+    
     expect(response).to be_successful
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
@@ -75,7 +75,7 @@ RSpec.describe "directions/weather api request" do
     expect(road_trip_response[:error]).to eq("Missing API key")
   end
 
-  it 'returns an error if no start or end destination is entered' do
+  it 'returns an error if no origin is entered' do
     user = User.create!(email: "trip@mail.com", password: "12345", password_confirmation: "12345")
 
     request_params = {
@@ -93,6 +93,26 @@ RSpec.describe "directions/weather api request" do
     expect(response.status).to eq(400)
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
-    expect(road_trip_response[:error]).to eq("At least two locations must be provided.")
+    expect(road_trip_response[:error]).to eq("Missing destination or origin locations")
+  end
+
+  it 'returns an error if no destination is entered' do
+    user = User.create!(email: "trip@mail.com", password: "12345", password_confirmation: "12345")
+
+    request_params = {
+      origin: "Boston, MA",
+      api_key: user.api_key
+    }
+
+    headers = {
+      "Content-Type" => "application/json",
+      "Accept" => "application/json"
+    }
+
+    post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
+
+    expect(response.status).to eq(400)
+
+    road_trip_response = JSON.parse(response.body, symbolize_names: true)
   end
 end

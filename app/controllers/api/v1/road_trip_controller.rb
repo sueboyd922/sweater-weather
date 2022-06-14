@@ -1,5 +1,6 @@
 class Api::V1::RoadTripController < ApplicationController
   before_action :valid_api_key?, only: [:show]
+  before_action :road_trip_params_present?, only: [:show]
 
   def show
     travel_time = MapFacade.get_travel_time(params[:destination], params[:origin])

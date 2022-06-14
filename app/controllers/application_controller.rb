@@ -17,7 +17,16 @@ class ApplicationController < ActionController::API
     end
   end
 
-  # def set_location
+  def road_trip_params_present?
+    unless params[:destination].present? && params[:origin].present?
+      roadtrip_error("Missing destination or origin locations")
+    end
+  end
+
+  # def find_location
   #   @location = MapFacade.get_location(params[:destination])
+  #   if @location.instance_of?(String)
+  #     location_error(@location)
+  #   end
   # end
 end

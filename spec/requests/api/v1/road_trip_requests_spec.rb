@@ -47,7 +47,7 @@ RSpec.describe "directions/weather api request" do
     }
 
     post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
-    require "pry"; binding.pry
+
     expect(response.status).to eq(401)
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
@@ -114,5 +114,6 @@ RSpec.describe "directions/weather api request" do
     expect(response.status).to eq(400)
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
+    expect(road_trip_response[:error]).to eq("Missing destination or origin locations")
   end
 end

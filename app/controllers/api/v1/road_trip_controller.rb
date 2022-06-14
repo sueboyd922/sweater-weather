@@ -6,11 +6,7 @@ class Api::V1::RoadTripController < ApplicationController
     travel_time = MapFacade.get_travel_time(params[:destination], params[:origin])
     location = MapFacade.get_location(params[:destination])
     weather = WeatherFacade.get_full_weather(location.lat, location.long)
-    if travel_time.instance_of?(String)
-      roadtrip_error(travel_time)
-    else
-      roadtrip_success(travel_time, weather)
-    end
+    roadtrip_success(travel_time, weather)
   end
 
 

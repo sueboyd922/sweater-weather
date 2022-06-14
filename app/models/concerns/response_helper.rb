@@ -20,10 +20,6 @@ module ResponseHelper
     render json: {error: user.errors.full_messages.to_sentence}, status: 400
   end
 
-  # def location_error(message)
-  #   render json: {error: message}, status: 400
-  # end
-
   def api_key_error(message)
     render json: {error: message}, status: 401
   end

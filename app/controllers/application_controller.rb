@@ -11,7 +11,9 @@ class ApplicationController < ActionController::API
 
   def valid_api_key?
     if params[:api_key].present?
-      api_key_error("Invalid API key") if !User.exists?(api_key: params[:api_key])
+       if !User.exists?(api_key: params[:api_key])
+         api_key_error("Invalid API key")
+       end
     else
       api_key_error("Missing API key")
     end
@@ -22,11 +24,4 @@ class ApplicationController < ActionController::API
       roadtrip_error("Missing destination or origin locations")
     end
   end
-
-  # def find_location
-  #   @location = MapFacade.get_location(params[:destination])
-  #   if @location.instance_of?(String)
-  #     location_error(@location)
-  #   end
-  # end
 end

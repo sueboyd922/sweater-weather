@@ -51,5 +51,27 @@ RSpec.describe "directions/weather api request" do
     expect(response.status).to eq(401)
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
+    expect(road_trip_response[:error]).to eq("Invalid API key")
+  end
+
+  it 'returns an error if no api key is sent' do
+    user = User.create!(email: "trip@mail.com", password: "12345", password_confirmation: "12345")
+
+    request_params = {
+      origin: "Boston, MA",
+      destination: "Raleigh, NC"
+    }
+
+    headers = {
+      "Content-Type" => "application/json",
+      "Accept" => "application/json"
+    }
+
+    post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
+
+    expect(response.status).to eq(401)
+
+    road_trip_response = JSON.parse(response.body, symbolize_names: true)
+    expect(road_trip_response[:error]).to eq("Missing API key")
   end
 end

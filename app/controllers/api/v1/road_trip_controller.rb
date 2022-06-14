@@ -1,14 +1,11 @@
 class Api::V1::RoadTripController < ApplicationController
+  before_action :valid_api_key?, only: [:show]
 
   def show
-    if User.exists?(api_key: params[:api_key])
-      travel_time = MapFacade.get_travel_time(params[:destination], params[:origin])
-      location = MapFacade.get_location(params[:destination])
-      weather = WeatherFacade.get_full_weather(location.lat, location.long)
-      render json: RoadTripSerializer.new_trip(travel_time, weather)
-    else
-      render json: {error: "Invalid API key"}, status: 401
-    end
+    travel_time = MapFacade.get_travel_time(params[:destination], params[:origin])
+    location = MapFacade.get_location(params[:destination])
+    weather = WeatherFacade.get_full_weather(location.lat, location.long)
+    render json: RoadTripSerializer.new_trip(travel_time, weather)
   end
 
 

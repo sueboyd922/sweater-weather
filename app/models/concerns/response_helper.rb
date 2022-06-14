@@ -1,4 +1,4 @@
-module ResponseHelper 
+module ResponseHelper
 
   def success(user, code)
     render json: UserSerializer.send_user(user), status: code
@@ -10,6 +10,10 @@ module ResponseHelper
 
   def creation_error(user, code)
     render json: {error: user.errors.full_messages.to_sentence}, status: 400
+  end
+
+  def api_key_error(message)
+    render json: {error: message}, status: 401
   end
 
 end

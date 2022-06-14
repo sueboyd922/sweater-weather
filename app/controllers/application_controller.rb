@@ -5,23 +5,23 @@ class ApplicationController < ActionController::API
     if User.exists?(email: params[:email])
       @user = User.find_by(email: params[:email])
     else
-      login_error
+      error("Email or password is incorrect", 401)
     end
   end
 
   def valid_api_key?
     if params[:api_key].present?
        if !User.exists?(api_key: params[:api_key])
-         api_key_error("Invalid API key")
+         error("Invalid API key", 401)
        end
     else
-      api_key_error("Missing API key")
+      error("Missing API key", 401)
     end
   end
 
   def road_trip_params_present?
     unless params[:destination].present? && params[:origin].present?
-      roadtrip_error("Missing destination or origin locations")
+      error("Missing destination or origin locations", 400)
     end
   end
 end

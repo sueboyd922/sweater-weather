@@ -47,7 +47,7 @@ RSpec.describe 'users login response' do
 
     user_response = JSON.parse(response.body, symbolize_names: true)
 
-    expect(response.status).to eq(400)
+    expect(response.status).to eq(401)
     expect(user_response[:error]).to eq("Email or password is incorrect")
   end
 
@@ -67,8 +67,8 @@ RSpec.describe 'users login response' do
     post "/api/v1/sessions", headers: headers, params: JSON.generate(login_info)
 
     user_response = JSON.parse(response.body, symbolize_names: true)
-
-    expect(response.status).to eq(400)
+    
+    expect(response.status).to eq(401)
     expect(user_response[:error]).to eq("Email or password is incorrect")
   end
 end

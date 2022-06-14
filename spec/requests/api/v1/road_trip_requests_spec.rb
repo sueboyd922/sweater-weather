@@ -16,7 +16,7 @@ RSpec.describe "directions/weather api request" do
     }
 
     post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
-    
+
     expect(response).to be_successful
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)
@@ -47,7 +47,7 @@ RSpec.describe "directions/weather api request" do
     }
 
     post "/api/v1/road_trip", headers: headers, params: JSON.generate(request_params)
-
+    require "pry"; binding.pry
     expect(response.status).to eq(401)
 
     road_trip_response = JSON.parse(response.body, symbolize_names: true)

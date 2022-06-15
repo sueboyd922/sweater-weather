@@ -50,6 +50,18 @@ RSpec.describe "weather api" do
       expect(weather[:hourly_weather][0][:temperature]).to be_a(Float).or be_an(Integer)
       expect(weather[:hourly_weather][0][:conditions]).to be_a String
       expect(weather[:hourly_weather][0][:icon]).to be_a String
+
+      expect(weather[:current_weather]).not_to have_key(:pressure)
+      expect(weather[:current_weather]).not_to have_key(:dew_point)
+      expect(weather[:current_weather]).not_to have_key(:wind_gust)
+
+      expect(weather[:daily_weather][0]).not_to have_key(:wind_gust)
+      expect(weather[:daily_weather][0]).not_to have_key(:moonrise)
+      expect(weather[:daily_weather][0]).not_to have_key(:dew_point)
+
+      expect(weather[:hourly_weather][0]).not_to have_key(:humidity)
+      expect(weather[:hourly_weather][0]).not_to have_key(:clouds)
+      expect(weather[:hourly_weather][0]).not_to have_key(:wind_speed)
     end
   end
 end

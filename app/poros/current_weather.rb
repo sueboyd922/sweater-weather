@@ -13,5 +13,4 @@ class CurrentWeather
     @conditions = data[:weather][0][:description]
     @icon = data[:weather][0][:icon]
   end
-
 end

@@ -18,5 +18,4 @@ class Forecast
       hours[0..7].map {|hour| HourlyWeather.new(hour)}
     end
   end
-
 end

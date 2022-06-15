@@ -1,4 +1,4 @@
-class Photo
+class Picture
   attr_reader :location, :image_url, :raw_url, :download, :query, :artist, :artist_username, :artist_link, :source
 
   def initialize(data, query)

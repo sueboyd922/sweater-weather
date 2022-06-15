@@ -1,13 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe Photo do
+RSpec.describe Picture do
   describe 'initialize' do
     it 'exists with attributes' do
       search = "boston,ma"
-      data = File.read("./spec/fixtures/photo_sample_response.json")
+      data = File.read("./spec/fixtures/picture_sample_response.json")
       photo_info = JSON.parse(data, symbolize_names: true)
 
-      photo = Photo.new(photo_info, search)
+      photo = Picture.new(photo_info, search)
 
       expect(photo.location).to eq(photo_info[:location][:title])
       expect(photo.image_url).to eq(photo_info[:urls][:regular])
